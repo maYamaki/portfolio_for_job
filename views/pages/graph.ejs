@@ -9,7 +9,12 @@
   <%- include ("../partials/nav.ejs") %>
 
 <div id="app">
-  {{ message }}
+  <h2>Enter some</h2>
+  <form v-on:submit.prevent>
+    <input type="text" v-model="newNum">
+    <button v-on:click="addItem">add</button>
+  </form>
+  <pre> {{ $data }} </pre>
 </div>
 <div class="canva1">
 
@@ -21,8 +26,7 @@
 </body>
   <script src="https://d3js.org/d3.v6.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
-  <script type="text/javascript" src="/scripts/forD3.js">
-
-  </script>
+  <script type="text/javascript" src="/scripts/main2.js"></script>
+  <script type="text/javascript" src="/scripts/forD3.js"></script>
   <%- include ("../partials/footer.ejs") %>
 </html>
