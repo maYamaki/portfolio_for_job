@@ -11,23 +11,15 @@
 <div id="app">
   <h2>Enter some</h2>
   <form v-on:submit.prevent>
-    <input type="text" v-model="newNum">
-    <button v-on:click="addItem">add</button>
+    <input type="number" v-model.number="newNum", name='weight'>
+    <button v-on:click="addNum">add</button>
   </form>
   <pre> {{ $data }} </pre>
-  <div class="canva1">
-
-  </div>
-
-  <div class="canva2">
-
-  </div>
 <!-- #app -->
 </div>
 </body>
   <script src="https://d3js.org/d3.v6.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
-  <script type="text/javascript" src="/scripts/main2.js"></script>
-  <script type="text/javascript" src="/scripts/forD3.js"></script>
+  <script type="text/javascript" src="/scripts/main3.js"></script>
   <%- include ("../partials/footer.ejs") %>
 </html>

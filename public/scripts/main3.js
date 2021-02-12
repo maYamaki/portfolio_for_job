@@ -1,5 +1,4 @@
-
-let vm = new Vue({
+var vm = new Vue({
     el: '#app',
     data: {
         message: "Hello Vue",
@@ -7,8 +6,8 @@ let vm = new Vue({
         nums: []
     },
     methods:{
-      addItem:function(event){
-        // alert();
+      addNum:function(event){
+        alert();
         if (this.newNum=='')return;
         var num ={
           item: this.newNum
