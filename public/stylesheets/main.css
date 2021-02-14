@@ -1,6 +1,7 @@
 .jumbotron {
   background: #532F8C;
   color: white;
+  background-image: url("https://picsum.photos/seed/picsum/1200/800");
   padding-bottom: 80px; }
   .jumbotron .btn-primary {
     background: #845ac7;
@@ -24,4 +25,3 @@
     border: 2px solid white; }
     .jumbotron .lang-logo img {
       max-width: 100%; }
-
