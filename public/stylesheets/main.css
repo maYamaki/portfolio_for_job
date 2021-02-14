@@ -33,14 +33,27 @@
 section{
   margin-bottom: 80px;
 }
+
+.center-item{
+  margin-left: auto;
+  margin-right: auto;
+}
+.items{
+  margin-top: 30px;
+}
+
 .pink{
   background-color: #ffc0cb;
 }
 .blue{
-  background-color: #99fff;
+  background-color: #99ffff;
 }
 .yellow{
   background-color: #ffffbf;
+}
+
+.bi{
+  text-align: center;
 }
 
 #services{
