@@ -33,6 +33,15 @@
 section{
   margin-bottom: 80px;
 }
+.pink{
+  background-color: #ffc0cb;
+}
+.blue{
+  background-color: #99fff;
+}
+.yellow{
+  background-color: #ffffbf;
+}
 
 #services{
   margin-top: 40px;
